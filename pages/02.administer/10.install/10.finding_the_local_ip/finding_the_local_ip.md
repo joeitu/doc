@@ -41,7 +41,7 @@ If you're using Linux, you can open a terminal and use `sudo arp-scan --local` t
 If the `arp-scan` command displays a confusing number of devices, you can check which ones are open to SSH with `nmap -p 22 192.168.1.0/24` to sort them out (adapt the IP range to your local network)
 [/ui-tab]
 [ui-tab title="With a direct access on the server"]
-Plug a screen on your server, log in and type `hostname --all-ip-address`.
+Plug a screen on your server, log in and type `hostname --all-ip-addresses`.
 
 The default credentials (before post-installation!) to log in are:
 - login: root
